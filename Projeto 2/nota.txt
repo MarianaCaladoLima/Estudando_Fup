@@ -1,0 +1,11 @@
+Esse é meu primeiro projeto em java, baseado no projeto do carro. Fiz ele sozinha e criei a lógica dele no papel e depois passei pro visual code. 
+Ele consiste em educar um cachorro ensinando comando para ele, como "senta", "rola", entre outros. Cada comando exige um nivel de aprendizado cachorro,
+ou seja, se ele nunca treinou um comando, ele não vai saber como executa-lo. Cada um dos comandos vai exigir mais repetições para o cachorro aprender e todos são independentes um do outro, 
+por exemplo, não é pq o cachorro sabe pular que ele vai saber dar uma pirueta, entende? cada um possui um "educar" diferente.
+Para o cachorro aprender um comando ele precisa ter "energia", "interesse", e não estar com sede. Quanto mais comandos o cachorro executar com sucesso, ele perde ou ganha pontos desses quisitos,
+por exemplo, se o cachorro acertar o comando "sentar" ele perde energia, já se ele não souber fazer o comando, ele perde interesse, mas ganha no aprender, já que a repetição do comando que faz ele aprender.
+Cada comando possui valores diferentes de perdas e ganhos, já que possuem comandos mais dificeis e que exigem mais dos atributos do cachorro.
+Tive algumas dificuldades pra me acostumar com java, já que antes eu fazia todos os códigos no papel e não tinha como testa-los, com isso apareceram vários erros chatos, mas deu para resolver.
+Demorei cerca de uns dois dias pra fazer o código completo no papel e uns quatro dias para passar para o visual code e solucionar os erros. foi bem estressante, mas nada comparado com o problema que tive que resolver no outro semestre, aqui to até aprendendo mais mesmo que eu estreja bem atrasada.
+Por enquanto ta de boa, mas quando chegar vetores eu tenho certeza que vou sofrer.
+Enfim, no final tudo vai dar certo.
