@@ -1,0 +1,16 @@
+Esse código foi uma versão do código do cofre e consiste em uma briga de robôs macacos (porque foi a primeira coisa que veio na minha cabeça).
+Desenvolvi ele sozinha passei levei dois dias pra fazer ele no meu caderno e cinco dias pra desenvolver ele no vs code. Foi uma experiencia, extremamente estressante e cansativa, mas no final deu certo finalmente.
+Enfim, você pode colocar os robôs para tretar, mas para isso antes vc tem que recarregar eles com as celulas de energia, que possuem três tamanhos que são pequena, media e grande, cada uma delas possui
+uma quantidade de energia especifica para abastecer a bateria, mas para isso ele tem que absorver a energia da celula antes de remove-la se não a energia não é absorvida.
+
+Para causar dano no seu adversario tem que destruir o escudo dele primeiro, depois que isso acontecer, você pode ganhar ou perder a luta e com isso você ganha e perde atributos.
+Caso seu robô quebre, você terá que conserta-lo, mas apenas se você tiver dinheiro suficiente para isso. O mesmo para caso vc queira adicionar melhorias ao seu robô macaco, mas no caso
+você também gastará uma certa quantidade de bateria.
+
+Tabela com os preços:
+
+reparo = 14 energia e 40 reais
+conserto = 70 reais
+aprimoramento = 68 energia e 100 reais
+
+Por mais estressante que tenha sido, eu até que gostei de fazer esse código, me ajudou a fixar muitas coisas que eu havia visto nas aulas.
