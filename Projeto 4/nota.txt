@@ -1,0 +1,9 @@
+Criando sua cobra, consiste em uma variação do código tamagoshi. Muitas pessoas criam gatos e cachorros, mas muitas pessoas costumam criar cobras hoje em dia, que diferente do que 
+muitos pensam, elas não são animais malignos, apenas tem seu jeitinho característico e até que charmoso. 
+Mas enfim, a cobra possui alguns cuidados diferentes do convencional, que são fome, energia, hidratação, temperatura e furtividade. De acordo com seus cuidados a cobra vai crescendo e evoluindo.
+Se a cobra tiver zerado em um desses parametros, ela morre e não poderá mais ser ressuscitar, então terá que criar outra cobra e evoluir tudo de novo.
+A cobra poderá ser alimentada com alguns animais e cada um aumenta uma quantidade especifica no inteiro "fome" da cobra.
+
+Fiz esse código sozinha, foi a minha ultima base feita no caderno antes do meu computador chegar, passei um dia pra criar o código e três dias para programa-lo e roda-lo no visual code.
+Foi bem menos estressante do que o dos robosMacacos, mas esse deu bem mais trabalho. Aprendi algumas coisinhas que não sabia sobre java, mas ainda continuo bem ruim em programação, mas to fazendo o possivel para melhorar.
+O problema é que programação é algo que vc tem que ter paciencia e é uma coisa que é dificil de ter. Pelo menos eu tentei.
