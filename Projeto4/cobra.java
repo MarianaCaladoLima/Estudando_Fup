@@ -1,3 +1,4 @@
+package Projeto4;
 import java.util.Scanner;
 enum alimento {
 

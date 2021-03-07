@@ -1,0 +1,3 @@
+Trazendo agora o projeto seis que resolvi fazer o da Junkfood, fiz ele sozinha em dois dias, mas com umas dicas do Luiz Guilherme. Foi bem cansativo,
+mas deu certo e o projeto é bem parecido com os conceitos do projeto de Junkfood classico. Aprendi mais sobre Arraylist, além de aprender a usar o FLOAT, que antes eu não 
+entendia pra que servia, mas enfim ainda sou bem mediana em programação, mas acho que deu pra aprender bastante com esse código.

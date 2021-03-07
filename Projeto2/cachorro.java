@@ -1,3 +1,4 @@
+package Projeto2;
 import java.util.Scanner;
 public class cachorro{
     String nome;
