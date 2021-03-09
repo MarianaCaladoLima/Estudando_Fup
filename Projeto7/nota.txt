@@ -1,0 +1,4 @@
+Olá meu caro professor assassino de calangos, hoje trago o codigo da topic, que adaptei para buzão, mas ele tem os mesmos conceitos do da topic, 
+com vagas e vagas preferenciais e bla bla bla, tudo aquilo que o senhor já sabe. Demorei cerca de dois dias pra fazer esse código (como sempre), mas foi bem mais rapido
+de fazer do que os ultimos dois codigos, acho que sofri tanto com o codigo do contato que aprendi arraylist na base do ódio, nesse eu tive menos odio, tenho ainda algumas dificuldades,
+mas ta tudo indo bem, to conseguindo compreender muita coisa. Emfim, fiz esse codigo sozinha e finalmente isso é um bom avanço.
