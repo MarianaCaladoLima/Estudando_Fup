@@ -1,0 +1,3 @@
+Bom dia caro professor de fup e assassino de calangos, trago agora o código da "busca" ou "contato 2", ele consiste em adicionar varios numeros e contatos, sem repetir o nome
+e bla bla bla, o senhor sabe, não muda muita coisa do que o senhor pediu no github. Enfim, esse codigo até que não foi tao sofrido, já que arraylist é a minha maior dificuldade
+em poo até agora, mas aprendi bastante com esse codigo. Como sempre, fiz ele em um dia com as dicas do Luiz, meu caro companheiro. Enfim, é isso, tenha um bom dia David S2.
