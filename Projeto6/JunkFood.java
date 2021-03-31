@@ -92,5 +92,24 @@ public class JunkFood{
         espirais.set(5, new Espiral("Milka", 10, 9));
         espirais.set(6, new Espiral("Diamante negro", 4, 4));
         espirais.set(7, new Espiral("Cookie", 8, 5));
+
+        Scanner analisar = new Scanner(System.in);
+        while(true){
+            String line = analisar.nextLine();
+            int dinheiro = analisar.nextInt();
+            String ui[] = line.split(" ");
+            if(ui[0].equals("end")){
+                break;
+            } else if(ui[0].equals("Coloque dinheiro")){
+                maquina.addDinheiro(dinheiro);
+            } else if(ui[0].equals("comprar")){
+                maquina.comprar(dinheiro);
+            } else if(ui[0].equals("troco")){
+                maquina.troco();
+            } else {
+                System.out.println("Erro");
+            }
+            analisar.close();
+        }
     }
 }

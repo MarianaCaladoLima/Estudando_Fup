@@ -63,7 +63,7 @@ public class Buzao {
         return -1;
     }
 
-    public boolean subir(Pessoa pessoa, String id, int idade){
+    public boolean subir(Pessoa pessoa){
         int vaga = 0;
         if(pessoa.idade > 60){
             vaga = vagaPreferencial(1, assentos.size());
@@ -75,7 +75,7 @@ public class Buzao {
         return false;
     }
 
-    public Pessoa apagar(String id){
+    public Pessoa sair(String id){
         int ind;
         ind = find(id);
         assentos.set(ind, new Pessoa(0, null));
@@ -88,6 +88,27 @@ public class Buzao {
 
     public static void main(String[] args){
         Buzao buzao = new Buzao(12, 4);
-        System.out.println(buzao);
+        Scanner ler = new Scanner(System.in);
+        while(true){
+            String line = ler.nextLine();
+            String ui[] = line.split(" ");
+            if(ui[0].equals("end")){
+                break;
+            } else if(ui[0].equals("init")){
+                System.out.println("De as informaçoes do passageiro");
+                String id = ler.nextLine();
+                int idade = ler.nextInt();
+                buzao.subir(new Pessoa(idade, id));
+            } else if(ui[0].equals("descer")){
+                String remover = ler.nextLine();
+                buzao.sair(remover);
+            } else if(ui[0].equals("printar")){
+                System.out.println(buzao);
+            } else {
+                System.out.println("ERRO");
+            }
+            ler.close();
+        }
+        
     }
 }

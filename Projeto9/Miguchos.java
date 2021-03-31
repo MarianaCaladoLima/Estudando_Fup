@@ -196,8 +196,28 @@ public class Miguchos{
 
     public static void main(String[] args){
         Miguchos miguchos = new Miguchos();
-        System.out.println(miguchos);
+        Scanner scanner = new Scanner(System.in);
+        while(true){
+            String line = scanner.nextLine();
+            String ui[] = line.split(" ");
+            if(ui[0].equals("end")){
+                break;
+            } else if(ui[0].equals("adicionar")){
+                miguchos.addContato(ui[1], new Telefone(ui[2], ui[3]));
+            } else if(ui[0].equals("remover")){
+                miguchos.removerContato(ui[1]);
+            } else if(ui[0].equals("pesquisar")){
+                System.out.println(miguchos.pesquisar(ui[1]));
+            } else if(ui[0].equals("favoritar")){
+                miguchos.bookmark(ui[1]);
+            } else if(ui[0].equals("desfavoritar")){
+                miguchos.unBookmark(ui[1]);
+            } else if(ui[0].equals("mostrar")){
+                System.out.println(miguchos);
+            } else {
+                System.out.println("Erro");
+            }
+            scanner.close();
+        }
     }
-
-
 }

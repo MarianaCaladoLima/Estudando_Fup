@@ -152,11 +152,12 @@ public class cobra {
     }
 
     boolean viver(){
-        if(!vivo){
+        if(vivo){
+            return true;
+        } else {
             System.out.println("Sua cobra está morta, você nâo pode mexer com ela");
             return false;
         }
-        return true;
     }
 
     void alimentar(alimento rango){
@@ -272,19 +273,35 @@ public class cobra {
         Scanner scanner = new Scanner(System.in);
         cobra cobra = new cobra("", 0, 0, 0, 0, 0);
         while(true){
-            String line = scanner.nextLine();
-            String ui[] = line.split(" ");
-            if(ui[0].equals("end")){
-                break;
-            }else if(ui[0].equals("init")){
-                cobra = new cobra((ui[1]), Integer.parseInt(ui[2]), Integer.parseInt(ui[3]), Integer.parseInt(ui[4]), Integer.parseInt(ui[5]), Integer.parseInt(ui[6]));
-            
-            }else if(ui[0].equals("show")){
-                System.out.println(cobra);
-            }else{
-                System.out.println("falha: comando invalido");
+            if(cobra.viver()){
+                String line = scanner.nextLine();
+                String ui[] = line.split(" ");
+                if(ui[0].equals("end")){
+                    break;
+                } else if(ui[0].equals("init")){
+                    cobra = new cobra((ui[1]), Integer.parseInt(ui[2]), Integer.parseInt(ui[3]), Integer.parseInt(ui[4]), Integer.parseInt(ui[5]), Integer.parseInt(ui[6]));
+                    alimento cobaia = alimento.camundongo;
+                    cobra.alimentar(cobaia);
+                } else if(ui[0].equals("comer")){
+                    cobra.digerir();
+                } else if(ui[0].equals("brincar")){
+                    cobra.brincar();
+                } else if(ui[0].equals("dar banho")){
+                    cobra.colocarNaBanheira();
+                } else if(ui[0].equals("temperatura")){
+                    cobra.pedrasAquecidas();
+                } else if(ui[0].equals("brumação")){
+                    int b = Integer.parseInt(ui[7]);
+                    cobra.brumacao(b);
+                } else if(ui[0].equals("esconder")){
+                    cobra.esconder();
+                } else if(ui[0].equals("show")){
+                    System.out.println(cobra);
+                } else{
+                    System.out.println("falha: comando invalido");
+                }
             }
+            scanner.close();
         }
-        scanner.close();
     }
 }

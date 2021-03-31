@@ -1,3 +1,4 @@
-Nesse trabalho eu aprimorei um tico do trabalho do roboMacaco, usando excessões, ou seja, ta quase a mesma coisa so que com excessões. Demorei 2h pra fazer essa coisa
-e fiz sozinha. Não sei se comentei antes, mas todos os meus projetos estão sendo feitos no vscode. Agora eu vou continuar o do contatostar e venho depois relatar
-como foi em outra nota. Enfim, espero que o senhor esteja bem e felicidades. Perdão o meu jeito, é que eu to com sono.
+Nesse trabalho eu aprimorei do trabalho do roboMacaco, usando excessões, ou seja, ta quase a mesma coisa so que com excessões. Demorei 2h pra fazer
+e fiz sozinha. Pesquisei bastante coisa na internet para tentar entender esse conceito de excessões, já que para mim é um conceito um pouco confuso.
+Não sei se comentei antes, mas todos os meus projetos estão sendo feitos no vscode. Agora eu vou continuar o do contatostar e venho depois relatar
+como foi em outra nota. Enfim, espero que o senhor esteja bem e felicidades.

@@ -62,7 +62,10 @@ public class contato {
 
     public static void main(String args[]){
         contato Vinicios13 = new contato("Viado");
-        Vinicios13.addFone("é muito viado", "yeiu");
+        Vinicios13 = new contato("Eliz");
+        Vinicios13.addFone("Menor", "tim325");
+        Vinicios13.addFone("Victor", "vivo782");
         System.out.println(Vinicios13);
+
     }
 }

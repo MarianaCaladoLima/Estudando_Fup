@@ -139,6 +139,24 @@ public class Contatinhos{
 
     public static void main(String[] args){
         Contatinhos contatos = new Contatinhos();
-        System.out.println(contatos);
+        Scanner ler = new Scanner(System.in);
+        while(true){
+            String line = ler.nextLine();
+            String ui[] = line.split(" ");
+            if(ui[0].equals("end")){
+                break;
+            } else if(ui[0].equals("adicionar")){
+                contatos.Adicionar(ui[1], new Contato(ui[2], ui[3]));
+            } else if(ui[0].equals("remover")){
+                contatos.removerContatinho(ui[1]);
+            } else if(ui[0].equals("printar")){
+                System.out.println(contatos);
+            } else if(ui[0].equals("pesquisar contato")){
+                System.out.println(contatos.busca(ui[1]));
+            } else {
+                System.out.println("Erro");
+            }
+            ler.close();
+        }
     }
 }
