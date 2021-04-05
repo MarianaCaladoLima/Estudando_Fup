@@ -1,1 +1,4 @@
-reiniciando de novo T-T
+Bom dia/Boa tarde/Boa noite professor, depois de quase quatro semanas refazendo o código do contatostar trezentos e cinquenta mil vezes, eu finalmente consegui! Primeiro
+tentei implementar a ideia de heranças no codigo dos favoritos, mas nao deu muito certo, então usei a dica que o senhor deu de pegar o trabalho da BUSCA e adaptei ele para
+o contatostar com a implementação de heranças. Esse trabalho deu muito trabalho e essa ultima tentativa demorou quatro dias pra realmente funcionar, já que também pelo meu vscode
+ser bem bugado piorou a situação, mas deu certo e eu consegui fazer. Fiz sozinha, com pesquisas no google sobre herança, mas no final deu certo.

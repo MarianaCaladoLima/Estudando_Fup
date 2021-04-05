@@ -1,0 +1,5 @@
+Um twitter melhor que o que temos, ou quase, implementando os conceitos de herança e ampliando a logica, que foi bem complicada de fazer na verdade.
+Acho que demorei cerca de cinco dias pra fazer esse código funcionar, já que a logica tava dando varios problemas, alem de tambem o fato do meu vscode
+ficar bugando e não deixando eu "debugar" meus trabalhos, tava me dando uma dor de cabeça, mas pelo menos eu acho que deu certo. Enfim, fiz esse código
+sozinha e afirmo que ele foi bem melhor de fazer do que o do contatostar, mas como não pretendo seguir pela corrente da programação, eu apenas tento fazer 
+os códigos corretos, enfim é isso.
